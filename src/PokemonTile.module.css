@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container:not(.nicknamed):hover {
+    background-color: aliceblue;
+}
+
+.container.nicknamed{
+  background-color: lightgreen;
+}
+
+.container.nicknamed:hover {
+  background-color: lime;
+}
